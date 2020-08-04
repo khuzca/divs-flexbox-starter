@@ -102,37 +102,77 @@ html {
   width: 100%;
 }
 
+header {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 100px;
+}
+
+
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
-  background-color: #252525;
+  background-color: #F5F5F5;
+  width: 100%;
 }
+
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: space-between;
+  background-color: #F5F5F5;
+  height: 100px;
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+
+
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../img/usama.jpg) repeat;
+  background-color: #F5F5F5;
+  height: 400px;
+  width: 100%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
   justify-content: space-between;
   font-weight: 400;
+  line-height: normal;
 
 
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
+
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
-  color: #fff;
   line-height: 1.5em;
   font-size: 1em;
-  background-color: #252525;
-  border: 0.25px solid #898989;
+  background-color: #F5F5F5;
   text-align: center;
-
+  border-bottom: 0.5px grey solid;
+  margin-bottom: 1%;
 
 }
 
